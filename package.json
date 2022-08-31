@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@chakra-ui/icons": "^2.0.9",
+    "@chakra-ui/react": "^2.2.9",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@rainbow-me/rainbowkit": "^0.5.0",
+    "@thirdweb-dev/react": "^2.7.4",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/smart-order-router": "^2.9.3",
+    "@uniswap/v3-sdk": "^3.9.0",
+    "@uniswap/widgets": "^2.3.1",
+    "@usedapp/core": "^1.1.5",
+    "alchemy-sdk": "^2.0.3",
+    "axios": "^0.27.2",
+    "ethers": "^5.7.0",
+    "framer-motion": "^6.5.1",
+    "graphql": "^16.6.0",
+    "install": "^0.13.0",
+    "next": "^12.1.6",
+    "npm": "^8.18.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-query": "^3.39.2",
+    "react-redux": "^7.2.8",
+    "ts-node": "^10.9.1",
+    "wagmi": "^0.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.9",
+    "autoprefixer": "^10.4.8",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.2"
+  }
+}
